@@ -23,10 +23,10 @@ The following preprocessing steps were applied:
 
 Several machine learning models were tested and compared based on accuracy:
 
-- K-Nearest Neighbors (KNN)
+- K-Nearest Neighbors (KNN) ✅ *(best accuracy: ~95.3%)*
 - Decision Tree
 - Bagging
-- Random Forest ✅ *(best accuracy: ~95.4%)*
+- Random Forest 
 - AdaBoost
 
 The model with the highest accuracy was used to generate predictions on the `validation.csv` dataset.
@@ -60,7 +60,10 @@ To install them:
 pip install pandas numpy scikit-learn matplotlib
 ```
 
-Author
+## Author
+
 Bálint Krisztián Keller
+
 Computer Science BSc student
+
 Interested in data science
